@@ -1,0 +1,40 @@
+.body-register {
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.body-register h1{
+    color: white;}
+
+   .body-register label{
+        color: white;
+    }
+
+   .body-register .form-register{
+        color: rgb(204, 204, 204);
+        border: solid 1px white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }      
+
+    .form-register input{
+        margin-top: 11px;
+        margin-bottom: 16px;
+    }
+
+    .form-register button{
+        margin-top: 11px;
+        margin-bottom: 16px;
+        background-color: rgb(62, 154, 108);
+        color: white;
+    }
+   

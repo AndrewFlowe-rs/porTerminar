@@ -1,0 +1,33 @@
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.388);
+    
+   
+}
+header h1 {
+    color: rgb(139, 35, 35);
+    font-style: oblique;
+    text-decoration: underline;
+}
+header nav {
+    background-color: rgba(45, 34, 21, 0.354);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+    gap: 232px;
+    padding: 11px;
+    list-style: none;
+}
+header li a {
+    border: solid black;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    color: rgba(203, 20, 220, 0.751);
+}

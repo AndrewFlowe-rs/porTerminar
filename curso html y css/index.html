@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--en el head van los metadatos , informacion extra , que tipo de archivo, sirve para darle mas informacion A nuestra pagina   -->
+    <meta charset="UTF-8" />
+    <!-- codificacion  -->
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio de modu</title>
+    <meta
+      name="description"
+      content="Portfolio de miduedv +15 años de experiencia"
+    />
+    <meta name="theme-color" content="#3498db" />
+    <!-- cambia el color del navegador -->
+    <link rel="icon" type="image/png" href="./images/yo.jpg" />
+    <!-- Icono de la pagina/pestaña -->
+  </head>
+
+  <!-- body es el contenido de la pagina -->
+  <body>
+    <!-- header es la parte superior de la pagina -->
+    <header>
+      <h1>Portfolio de Andru</h1>
+      <!-- h1 es la etiqueta - y todo de h1 hasta /h1 es el elemento -->
+      <nav>
+        <a href="#experiencia">experiencia </a>
+        <a href="#proyectos">proyectos</a>
+        <a href="www.google.com" target="_blank" rel="noreferrer">pagina</a>
+        <!-- target blank abre en una nueva pestaña -->
+        <!-- rel no referer sirve para no enviar datos de la pagina hacia afuera -->
+      </nav>
+    </header>
+
+    <main>
+      <p>
+        +1 años de experiencia como
+        <strong>Desarrollador web full stack </strong> 
+      </p>
+
+      <h2>Experiencia</h2>
+
+      <ul>
+        <li>Estudiante de FundacionFormar y Digital House : 2023 - 2024</li>
+        <li>Desarrollador de pagina web pizzeriaGit : 2024</li>
+        <li>Estudiante de EGG - Programacion web desde cero :2022</li>
+      </ul>
+
+      <img
+        width="200px"
+        height="200px"
+        title="foto de mi "
+        src="./images/yo.jpg"
+        alt="soy yo"
+      />
+      <!-- img : elemento reemplazable , no tiene cierre 
+ src; es un atributo -->
+      <!-- hidden es un atributo booleano y sirve para ocultar el elemento   -->
+
+      <!-- la etiqueta div significa dividir -->
+      <!-- la etiqueta span es para agrupar contenido en linea y div para agrupar el contenido en bloque   -->
+      <!-- Semantica es significar que algo es algo -->
+
+      <!-- article es un elemento con informacion propia obtenida y va dentrto de una section los article pueden tener una header y un footer con una etiqueta small que achica el texto se utiliza para temas de copyrigth y para dar algun tipo de explicacion que sea muy secundaria ,algo que no tenga tanta importancia   -->
+      <!-- Secttion marca secciones independientes -->
+      <!-- fuera de main van el header y el footer -->
+    </main>
+
+    <section>
+      <h3>Preguntas frecuentes</h3>
+
+      <details>
+        <summary>¿Cuantos años de experiencia tiene miduedv?</summary>
+        <p>
+          +15 años de experiencia como ingeniero de software. Creador y divulgador de
+          programacion
+        </p>
+      </details>
+
+      <details>
+        <summary>cuales son tus pasatiempos?</summary>
+        <p>programar</p>
+      </details>  
+  </section>
+
+    <section>
+      <h3>Formulario de contacto</h3>
+      <form method="post" action="/">
+        <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="nombre" placeholder="escribe tu nombre" ></input>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informacion de contacto</legend>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="escribe tu email" ></input>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion Adicional</legend>
+            <div>
+                <label for="tel">telefono:</label>
+                <input type="tel" id="tel" name="tel" placeholder="escribe tu telefono" ></input>
+            </div>
+        </fieldset>
+
+      </form>
+    </section>
+    <div>
+        <datalist id="proyectos">
+            <option value="proyecto 1"></option>        
+            <option value="proyecto 2"></option>
+            <option value="proyecto 3"></option>
+        </datalist>
+        <label for="">
+            con que proyecto quieres que te ayude ?
+            <input type="text" list="proyectos" name="proyectos">
+        </label>
+    </div>
+
+    <footer>
+      <a href="mailto:andresflore160200gmil.com">enviame un correo</a>
+      <a href="tel:3884636451">llamar por telefono </a>
+      <a href="whatsapp://send?text=Hola&phone=+54 3884636451"
+        >mandame un mensaje</a
+      >
+    </footer>
+  </body>
+</html>
